@@ -7,32 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rusted Sun</title>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../Pizza-1/css/style.css">
 </head>
 
 <body>
     <header>
-        <h1>Rusted Sun</h1>
-        <ul>
-            <li><a href="../Pizza-1/index.html">Home</a></li>
-            <li><a href="../Pizza-1/contact.html">Contact</a></li>
-            <li><a href="../Pizza-1/about.html">About</a></li>
-            <li><a href="../Pizza-1/order.html">Order</a></li>
-        </ul>
+        <h1 class="inline">Rusted Sun</h1>
+        <nav class="inline right">
+            <ul class="inline">
+                <li class="inline"><a class="inline" href="../Pizza-1/index.html">Home</a></li>
+                <li class="inline"><a class="inline active-page" href="../Pizza-1/contact.html">Contact</a></li>
+                <li class="inline"><a class="inline" href="../Pizza-1/about.html">About</a></li>
+                <li class="inline"><a class="inline" href="../Pizza-1/order.html">Order</a></li>
+            </ul>
+        </nav>
     </header>
     <!--Contact form-->
     <h4>Contact Form</h4>
-        <form method="post" action="https://www.stonecoldprofessor.com/pizza-contact.php" id="contact-form" target="_blank">
-            <label for="fn">First Name:</label><br>
-            <input type="text" name="first-name" id="fn"><br>
-            <label for="ln">Last name:</label><br>
-            <input type="text" name="last-name" id="ln"><br>
-            <label for="email">Email</label><br>
-            <input type="text" name="email" id="email"><br>
-            <label for="msg">Message</label><br>
-            <textarea name="message" id="msg"></textarea><br><br>
-            <input type="submit" value="Send">
-            <input type="reset" value="Clear">
-        </form>
+    <form method="post" action="https://www.stonecoldprofessor.com/pizza-contact.php" id="contact-form" target="_blank">
+        <label for="fn">First Name:</label><br>
+        <input type="text" name="first-name" id="fn"><br>
+        <label for="ln">Last name:</label><br>
+        <input type="text" name="last-name" id="ln"><br>
+        <label for="email">Email</label><br>
+        <input type="text" name="email" id="email"><br>
+        <label for="msg">Message</label><br>
+        <textarea name="message" id="msg"></textarea><br><br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Clear">
+    </form>
     <!--Javascript-->
     <script src="../pizza-1/js/contact.js"></script>
 </body>
