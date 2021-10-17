@@ -31,7 +31,7 @@
                     cupiditate nostrum minus deleniti quia, vitae autem modi asperiores commodi.</p>
             </div>
             <div>
-                <img src="./img/slice.jpg" class="slice">
+                <img src="./img/slice.jpg" class="slice" alt="slice">
             </div>
         </div>
         <form method="post" action="https://www.stonecoldprofessor.com/pizza-order.php" id="contact-form"
@@ -55,6 +55,7 @@
 
                 <label for="state">State:</label><br>
                 <select name="state" id="state" required>
+                    <option>State</option>
                     <option value="AL">Alabama</option>
                     <option value="AK">Alaska</option>
                     <option value="AZ">Arizona</option>
@@ -139,7 +140,7 @@
                 <input type="radio" name="size" id="12" value='12 inch'>
                 <label for="14">14</label>
                 <input type="radio" name="size" id="14" value='14 inch'>
-                <label for="16"></label>16</label>
+                <label for="16">16</label>
                 <input type="radio" name="size" id="16" value='16 inch'>
                 <br><br>
 
@@ -149,14 +150,14 @@
                     <div>
                         <div>
                             <label for="pep" style="text-align: center;">
-                                <img src="./img/pep.png" class="topping-img js-click1">
+                                <img src="./img/pep.png" class="topping-img js-click1" alt="Peperoni">
                             </label>
                             <input type="checkbox" name="toppings[]" id="pep" value="Pepperoni">
                         </div>
 
                         <div>
                             <label for="mush">
-                                <img src="./img/mushrooms.png" class="topping-img js-click2">
+                                <img src="./img/mushrooms.png" class="topping-img js-click2" alt="Mushrooms">
                             </label>
                             <input type="checkbox" name="toppings[]" id="mush" value="Mushrooms">
                         </div>
@@ -164,7 +165,7 @@
                     <div>
                         <div>
                             <label for="pine">
-                                <img src="./img/pineapple.png" class="topping-img js-click3">
+                                <img src="./img/pineapple.png" class="topping-img js-click3" alt="Pineapple">
                             </label>
                             <input type="checkbox" name="toppings[]" id="pine" value="Pineapple">
                         </div>
@@ -172,17 +173,18 @@
 
                         <div>
                             <label for="Ham">
-                                <img src="./img/ham.png" class="topping-img js-click4">
+                                <img src="./img/ham.png" class="topping-img js-click4" alt="Ham">
                             </label>
                             <input type="checkbox" name="toppings[]" id="Ham" value="Ham">
                         </div>
                     </div>
-                    <div class="clear button" value="Reset">Reset</div>
+                    <div class="clear button">Reset</div>
                 </div>
                 <br><br>
 
                 <input type="submit" value="Send">
                 <input type="reset" class="clear" value="Clear">
+            </div>
         </form>
     </main>
 </body>
