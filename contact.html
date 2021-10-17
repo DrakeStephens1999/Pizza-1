@@ -11,10 +11,10 @@
 </head>
 
 <body>
-    <header>
+    <header style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
         <h1 class="inline">Rusted Sun</h1>
         <nav class="inline right">
-            <ul class="inline">
+            <ul>
                 <li class="inline"><a class="inline" href="../Pizza-1/index.html">Home</a></li>
                 <li class="inline"><a class="inline active-page" href="../Pizza-1/contact.html">Contact</a></li>
                 <li class="inline"><a class="inline" href="../Pizza-1/about.html">About</a></li>
@@ -23,19 +23,39 @@
         </nav>
     </header>
     <!--Contact form-->
-    <h4>Contact Form</h4>
-    <form method="post" action="https://www.stonecoldprofessor.com/pizza-contact.php" id="contact-form" target="_blank">
-        <label for="fn">First Name:</label><br>
-        <input type="text" name="first-name" id="fn"><br>
-        <label for="ln">Last name:</label><br>
-        <input type="text" name="last-name" id="ln"><br>
-        <label for="email">Email</label><br>
-        <input type="text" name="email" id="email"><br>
-        <label for="msg">Message</label><br>
-        <textarea name="message" id="msg"></textarea><br><br>
-        <input type="submit" value="Send">
-        <input type="reset" value="Clear">
-    </form>
+    <main>
+        <h4 class="indent underline">Contact Form</h4>
+        <p style="text-indent: 4vmin;" class="indent">Please feel free to contact us about any issues concerning your
+            order. We're here and happy to help. 🍕😋 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat
+            modi mollitia a minima sit? Magni quia odio voluptates dolore incidunt consequuntur earum rerum omnis ab
+            ipsa, sit illo facilis repudiandae?</p>
+        <br>
+        <div class="form">
+            <div class="contact-form">
+                <form method="post" action="https://www.stonecoldprofessor.com/pizza-contact.php" id="contact-form"
+                    target="_blank" style="position: relative;">
+                    <br>
+                    <label for="fn">First Name:</label><br>
+                    <input type="text" name="first-name" id="fn"><br>
+                    <label for="ln">Last name:</label><br>
+                    <input type="text" name="last-name" id="ln"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="text" name="email" id="email"><br>
+                    <label for="msg">Message:</label><br>
+                    <textarea name="message" id="msg"></textarea><br><br>
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Clear">
+                </form>
+            </div>
+            <div>
+                <img class="lobby" src="./img/lobby.jpg">
+            </div>
+        </div>
+    </main>
+    <!--footer-->
+    <footer>
+        <h2>Thanks for visiting</h2>
+    </footer>
     <!--Javascript-->
     <script src="../pizza-1/js/contact.js"></script>
 </body>
